@@ -29,6 +29,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src="https://use.fontawesome.com/3d040d79da.js"></script>
+
 </head>
 
 <body>
@@ -53,9 +54,6 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-<!--                     <li>
-                        <a href="index.html">Home</a>
-                    </li> -->
                     <li>
                         <a href="index.html">About</a>
                     </li>
@@ -63,7 +61,7 @@
                         <a href="projects.html">Projects</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -78,11 +76,12 @@
             <div class="box">
                 <div class="col-lg-12 text-center">
                     <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
+                         <!-- Indicators -->
                         <ol class="carousel-indicators hidden-xs">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
@@ -95,6 +94,9 @@
                             </div>
                             <div class="item">
                                 <img class="img-responsive img-full" src="img/sketchio.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/webReels.png" alt="">
                             </div>
                         </div>
 
@@ -128,7 +130,7 @@
                         <strong>Tin</strong>
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
+                    <img class="img-responsive img-border img-left" src="img/profile_pic.jpg" width=200 height=100 alt="">
                     <hr class="visible-xs">
                     <p>Tin is a Full Stack Developer who enjoys designing creative websites with functionalities that support user experience. He ensures each project is of the highest quality and is responsive to multiple devices. His love for intellectual challenges allow him to continually explore the vast world of programming and grow as a developer. Some of the primary languages and frameworks he works with are Javascript, HTML, CSS, NodeJS, and Angular JS.</p>
                     <p>During his spare time, Tin enjoys playing music with his guitar and piano.  He also invests a fair amount of time playing basketball with friends or sketching various artwork.</p>
@@ -136,24 +138,63 @@
             </div>
         </div>
 
-<!--         <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes
-                        <strong>to showcase your content</strong>
-                    </h2>
-                    <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <!-- </div> -->
+    <!-- /.container -->
+        <!-- <div class="container" > -->
+
+            <div class="row" id='contact'>
+                <div class="box">
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center">Contact Info</h2>
+                        <hr>
+                    </div>
+                    <!-- <div class="col-md-8"> -->
+                        <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+    <!--                     <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                    </div> -->
+                    <div class="col-lg-12 text-center">
+                      <div><br>
+                        <span><i id="phone" class="fa fa-phone fa-3x" data-toggle="modal" data-target="#phoneNum" aria-hidden="true"></i></span>
+                          <div id="phoneNum" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;
+                                  </button>
+                                  <h4 class="modal-title">Phone Number</h4>
+                                  <div class="modal-body">
+                                    <p>626-592-8615</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default"
+                                    data-dismiss="modal">Dismiss
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <a href="mailto:tin.tran0519@gmail.com"><i id="em" class="fa fa-envelope-square fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button"><i id="linkedin" class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://github.com/tintran519"><i id="git" class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+                      </div><br>
+    <!--                     <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                            <strong>626-592-8615</strong>
+                        </p>
+                        <p>Email:
+                            <strong><a href="mailto:tin.tran0519@gmail.com">tin.tran0519@gmail.com</a></strong>
+                        </p>
+                        <p>Address:
+                            <strong>303 South 6th St.
+                                <br>Alhambra, CA 91801</strong>
+                        </p> -->
+                    </div>
                 </div>
             </div>
-        </div> -->
 
-    </div>
-    <!-- /.container -->
 
-    <footer>
+<!--     <footer>
         <div class="container">
             <div class="row text-center center-block">
                 <div class="col-lg-12">
@@ -165,7 +206,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

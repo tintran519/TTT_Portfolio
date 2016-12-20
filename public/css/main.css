@@ -7,7 +7,7 @@
 body {
     font-family: 'Libre Baskerville', serif;
     /*font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/bg_1.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -40,6 +40,10 @@ hr {
 
 a {
   margin-left: 5%;
+}
+
+.git {
+  margin-right: 6%;
 }
 
 .fa:hover {
