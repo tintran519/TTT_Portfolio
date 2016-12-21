@@ -94,7 +94,7 @@ a {
 }
 
 .brand,
-.address-bar {
+.occupation {
     display: none;
 }
 
@@ -148,6 +148,24 @@ a {
     letter-spacing: 1px;
 }
 
+.box.skills {
+  text-align: center;
+}
+
+.logos {
+  margin-top: 1.5em;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.logo img {
+  margin-top: .75em;
+}
+
 .img-border {
     float: none;
     margin: 0 auto 0;
@@ -193,7 +211,7 @@ footer p {
         margin-right: 25px;
     }
 
-    .address-bar {
+    .occupation {
         display: inherit;
         margin: 0;
         padding: 0 0 40px;

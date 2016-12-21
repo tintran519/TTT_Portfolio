@@ -18,6 +18,7 @@
     <link href="css/main.css" rel="stylesheet">
 
     <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
@@ -30,11 +31,13 @@
 
     <script src="https://use.fontawesome.com/3d040d79da.js"></script>
 
-<!-- </head> -->
+</head>
 
-<!-- <body> -->
+<body>
 
     <div class="brand">Tin Trung Tran</div>
+    <div class="occupation">Full Stack Developer</div>
+
 <!--     <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
  -->
     <!-- Navigation -->
@@ -81,39 +84,102 @@
                     </h2>
                     <hr>
                 </div>
+
                 <div class="col-lg-12 text-center">
                     <a href="https://tintran519.github.io/blackJack/">
                       <img class="img-responsive img-border img-full" src="img/blackjack.png" alt="">
                     </a>
-                    <h2>BlackJack
+                    <h2 id='blackJack'>BlackJack
                         <br>
                         <small>October 2016</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p>
+                      A game that needs no introduction to frequent casino visitors, BlackJack’s premise is to acquire a hand greater than the dealer,
+                      but any score greater than 21 is considered a lost.
+                      The functionalities of the game operates solely on Javascript with a hint of jQuery to enable the “card-sliding” effect.
+                      A constructor function was used to build the deck and numerous conditional statements keeps the logic of the game intact.
+                    </p>
+                    <hr>
+                    <h2 class="intro-text text-center">Technologies used:</h2>
+                    <hr>
+                    <div class="logos">
+                      <div class="logo">
+                        <strong>HTML5</strong>
+                        <img class="img-responsive" src="img/HTML5_logo.png" width=74 height=84 alt="">
+                      </div>
+                      <div class="logo">
+                        <strong>CSS</strong>
+                        <img class="img-responsive" src="img/css_logo.png" width=74 height=84 alt="">
+                      </div>
+                      <div class="logo">
+                        <strong>Javascript</strong>
+                        <img class="img-responsive" src="img/javascript_logo.png" width=74 height=84 alt="">
+                      </div>
+                      <div class="logo">
+                        <strong>jQuery</strong>
+                        <img class="img-responsive" src="img/jquery_logo.png" width=74 height=84 alt="">
+                      </div>
+                    </div><br>
                     <a href="https://github.com/tintran519/blackJack" class="btn btn-default btn-lg git"><img src="img/github_logo.png" width=35 height=35>GitHub Link</a>
                     <hr>
                 </div>
+
                 <div class="col-lg-12 text-center">
                     <a href="https://salty-journey-55900.herokuapp.com/">
                       <img class="img-responsive img-border img-full" src="img/feedme.png" alt="">
                     </a>
-                    <h2>Feed Me
+                    <h2 id='feedMe'>Feed Me
                         <br>
                         <small>November 2016</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p>
+                      This application allows users to compile an electronic grocery shopping list that gets registered to the database.
+                      Once saved, another user(a ‘Hunter’) on the app may choose to accept the list and gather all the ingredients requested at a nearby grocery store.
+                      This CRUD application was built using Ruby on Rails with the sole intention of experimenting with databases and routes.
+                    </p>
+                    <hr>
+                    <h2 class="intro-text text-center">Technologies used:</h2>
+                    <hr>
+                    <div class="logos">
+                      <div class="logo">
+                        <strong>Ruby</strong>
+                        <img class="img-responsive" src="img/ruby_logo.png" width=74 height=84 alt="">
+                      </div>
+                      <div class="logo">
+                        <strong>Rails</strong>
+                        <img class="img-responsive" src="img/rails_logo.png" width=74 height=84 alt="">
+                      </div>
+                    </div><br>
                     <a href="https://github.com/tintran519/feed_me" class="btn btn-default btn-lg git"><img src="img/github_logo.png" width=35 height=35>GitHub Link</a>
                     <hr>
                 </div>
+
                 <div class="col-lg-12 text-center">
                     <a href="https://guarded-reef-78522.herokuapp.com/">
                       <img class="img-responsive img-border img-full" src="img/sketchio.png" alt="">
                     </a>
-                    <h2>Sketch I/O
+                    <h2 id="sketch">Sketch I/O
                         <br>
                         <small>November 2016</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p>
+                      Sketch I/O integrates a chat feature with a real-time drawing application.
+                      Whether the primary purpose is to design and discuss business mock-ups or recreational sketching with friends, users have the convenience of both features in one setting.
+                      By utilizing Web Sockets and NodeJS, the application can receive and send each user’s input data and provide a real-time interaction.
+                    </p>
+                    <hr>
+                    <h2 class="intro-text text-center">Technologies used:</h2>
+                    <hr>
+                    <div class="logos">
+                      <div class="logo">
+                        <strong>NodeJS</strong>
+                        <img class="img-responsive" src="img/nodejs_logo.png" width=74 height=84 alt="">
+                      </div>
+                      <div class="logo">
+                        <strong>MongoDB</strong>
+                        <img class="img-responsive" src="img/mongodb_logo.png" width=74 height=84 alt="">
+                      </div>
+                    </div><br>
                     <a href="https://github.com/tintran519/sketch_io" class="btn btn-default btn-lg git"><img src="img/github_logo.png" width=35 height=35>GitHub Link</a>
                     <hr>
                 </div>
@@ -121,11 +187,32 @@
                     <a href="https://nameless-gorge-31214.herokuapp.com/#/home">
                       <img class="img-responsive img-border img-full" src="img/webReels.png" alt="">
                     </a>
-                    <h2>Web Reels
+                    <h2 id="webReels">Web Reels
                         <br>
                         <small>December 2016</small>
                     </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p>
+                      Inspired by NetFlix’s design layout, Web Reels offers a full movie database that includes the latest and most popular films using TMDB’s API.
+                      Users can view the current trends and query a specific movie of interest.
+                      This MEAN stack application implements AngularJS and NodeJS as its front and back-end frameworks while utilizing MongoDB as its database.
+                    </p>
+                    <hr>
+                    <h2 class="intro-text text-center">Technologies used:</h2>
+                    <hr>
+                    <div class="logos">
+                      <div class="logo">
+                        <strong>AngularJS</strong>
+                        <img class="img-responsive" src="img/angular_logo.png" width=74 height=84 alt="">
+                      </div>
+                      <div class="logo">
+                        <strong>NodeJS</strong>
+                        <img class="img-responsive" src="img/nodejs_logo.png" width=74 height=84 alt="">
+                      </div>
+                      <div class="logo">
+                        <strong>MongoDB</strong>
+                        <img class="img-responsive" src="img/mongodb_logo.png" width=74 height=84 alt="">
+                      </div>
+                    </div><br>
                     <a href="https://github.com/tintran519/web_reels" class="btn btn-default btn-lg git"><img src="img/github_logo.png" width=35 height=35>GitHub Link</a>
                     <hr>
                 </div>
