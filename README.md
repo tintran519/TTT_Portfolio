@@ -1,7 +1,7 @@
 # Tin's Porfolio
 ## Overview
 ### About Me
-Learn more about who I am in this section as well as what I am capable of.
+Learn more about who I am in this section and my skills.
 
 * Summary
 * Technical Skills
