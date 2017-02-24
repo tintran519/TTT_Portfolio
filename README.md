@@ -16,3 +16,7 @@ This section provides a highlight of my works. Each section provides a descripti
 * Sketch I/O
 * Web Reels
 * Sky View
+
+### Resume
+
+View a copy of my resume
