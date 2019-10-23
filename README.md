@@ -15,7 +15,6 @@ This section provides a highlight of my works. Each section provides a descripti
 * Feed Me
 * Sketch I/O
 * Web Reels
-* Sky View
 
 ### Resume
 
